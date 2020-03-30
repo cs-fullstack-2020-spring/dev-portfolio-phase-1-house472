@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import AboutMe from './AboutMe'
 import { BrowserRouter as Router, Link, Route } from "react-router-dom"
 import SignUpform from './SignUpform';
+import ProfessionalBackground from './ProfessionalBackground';
+import DeveloperSkills from './DevoloperSkills';
+import Projects from './Projects'
+
+
 class AppContainer extends Component {
     constructor(props) {
         super(props);
@@ -12,20 +17,39 @@ class AppContainer extends Component {
             <div>
                 <h1 id="header">Charles A. Gordon</h1>
                 <Router>
-                    <Link to="/home">Home</Link>
+                    <Link to="/home">Home</Link> 
                     <Link to="/form">Contact Me!</Link>
-                    <Route path="/form">
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/developer">Developer Skills</Link>
+                    <Link to="/professional">Professional Background</Link>
 
+                    <Route path="/home">
+                    <AboutMe />
+                    </Route>
+                   
+                    <Route path="/form">
+                        <SignUpform />
                     </Route>
 
 
+                    <Route path="/projects">
+                    <Projects />
+                    </Route>
+
+                    <Route path="/professional">
+                    <ProfessionalBackground />
+                    </Route>
 
 
+                    <Route path="/developer">
+                    <DeveloperSkills />
+                    </Route>
                 </Router>
+               
+              
+                
 
-
-                <SignUpform />
-                <AboutMe />
+               
             </div>
         );
     }
