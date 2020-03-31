@@ -14,14 +14,14 @@ class AppContainer extends Component {
     }
     render() {
         return (
-            <div>
+            <div >
                 <h1 id="header">Charles A. Gordon</h1>
-                <Router>
-                    <Link to="/home">Home</Link> 
-                    <Link to="/form">Contact Me!</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/developer">Developer Skills</Link>
-                    <Link to="/professional">Professional Background</Link>
+                <Router  >
+                    <Link class="navbar"    to="/home">Home</Link> 
+                    <Link  class="navbar"   to="/form">Contact Me!</Link>
+                    <Link  class="navbar"   to="/projects">Projects</Link>
+                    <Link  class="navbar"   to="/developer">Developer Skills</Link>
+                    <Link  class="navbar"   to="/professional">Professional Background</Link>
 
                     <Route path="/home">
                     <AboutMe />
