@@ -1,32 +1,21 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 class SignUpform extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = {}
     }
-    render() { 
-        return (  
+    render() {
+        return (
             <div>
-              <h1>Contact Me!</h1>
-              <h2></h2>
+                
+                
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfrbj4U8-rRVkzkExR-aVFvBFh78EIOY_-2ycqK8Kq2q31P1g/viewform?embedded=true" width="640" height="844" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-              <form action="">
-                  <fieldset>
-                      <legend>Complete the form below and I will respond as soon as possible.</legend>
 
-                      <label htmlFor="">Email</label>
-                      <input type="email" name= "email" onChange = {this.handleChange} value={this.state.userEmail}/>
 
-                      <label htmlFor="">First Name</label>
-                      <input type="text" name="name" id="name" onChange= {this.handleChange} value = {this.state.firstName}/>
-
-                      <label htmlFor=""></label>
-                    
-                  </fieldset>
-              </form>
             </div>
         );
     }
 }
- 
+
 export default SignUpform;

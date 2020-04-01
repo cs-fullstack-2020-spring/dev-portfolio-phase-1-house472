@@ -7,6 +7,7 @@ import DeveloperSkills from './DevoloperSkills';
 import Projects from './Projects'
 
 
+
 class AppContainer extends Component {
     constructor(props) {
         super(props);
@@ -16,6 +17,7 @@ class AppContainer extends Component {
         return (
             <div >
                 <h1 id="header">Charles A. Gordon</h1>
+                
                 <Router  >
                     <Link class="navbar"    to="/home">Home</Link> 
                     <Link  class="navbar"   to="/form">Contact Me!</Link>
@@ -46,7 +48,7 @@ class AppContainer extends Component {
                     </Route>
                 </Router>
                
-              
+               
                 
 
                
