@@ -6,34 +6,35 @@ class AboutMe extends Component {
     }
     render() {
         return (
-            <div id= "container">
+            <div id="container">
 
-               
 
-                <div  id = "image">
-                    <img src="https://attachment.outlook.live.net/owa/MSA%3Amorehouse472%40hotmail.com/service.svc/s/GetAttachmentThumbnail?id=AQMkADAwATY3ZmYAZS04NmNkLTZhYzItMDACLTAwCgBGAAADKUan772VA0SEHNYYkL67TgcAxUIBg0sLUUOvyS98xHn9TAAAAgEiAAAAxUIBg0sLUUOvyS98xHn9TAADaueSkgAAAAABEgAQAAnTNGTclnVMmp68xasAzNI%3D&thumbnailType=2&owa=outlook.live.com&scriptVer=2020032301.14&isc=1&X-OWA-CANARY=5fWE1UjdKUquT4nYe4to5dBRoJx11tcYnVGsaTmSg2y4c2XdfYIGueaKZ8pnoD4wagl8eTr9YTo.&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkiLCJ0eXAiOiJKV1QifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2subGl2ZS5jb20iLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQDg0ZGY5ZTdmLWU5ZjYtNDBhZi1iNDM1LWFhYWFhYWFhYWFhYSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTI4MjctNDI1OTgyLTIyNjE2MDkxNTRcIixcInB1aWRcIjpcIjE4Mjk1ODEwMjAyOTM4MjZcIixcIm9pZFwiOlwiMDAwNjdmZmUtODZjZC02YWMyLTAwMDAtMDAwMDAwMDAwMDAwXCIsXCJzY29wZVwiOlwiT3dhRG93bmxvYWRcIn0iLCJuYmYiOjE1ODU3NzAyNTMsImV4cCI6MTU4NTc3MDg1MywiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQDg0ZGY5ZTdmLWU5ZjYtNDBhZi1iNDM1LWFhYWFhYWFhYWFhYSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50Lm91dGxvb2subGl2ZS5uZXRAODRkZjllN2YtZTlmNi00MGFmLWI0MzUtYWFhYWFhYWFhYWFhIiwiaGFwcCI6Im93YSJ9.Dkrx3gzT73wNOczAkYvcZfm1Kvn9qr2goXZqR-uvrqKC3up8mY_vK062VHrsgekYyP_Wy2WLbyFw1gNvoni4s-C8Mvtnv5raSxJvqHN53Sx_rtAZuclfosGd7MYSRi4cnXKO4yHP_kfVh8TTXhRAxghnJtvwP0cNmJDTpDN8hcqB98PQK0IRA8rywN5tzq5O9OVUa24rWeZogcUDEY3zouMQgdEVwP9vVjKGZ7-nSDd_EtZRddT1zetUqekxQKOfgwzb0vbcgq2vbufpvv6tW4hmEkKL1RarfSXit6QL78Qhyn179cGbnCjoHsYMohCSgawSedHa0GULY52Uf2tQqQ&animation=true" height = "300" width ="175" alt=""/>
+
+                <div id="image">
+                    <img src= "images/Profile.png" width ="300" alt="" />
                 </div>
 
-                <div id = "headerQuote">
+                <div id="headerQuote">
 
-                <p class="quote">"First Solve the Problem.....Then Write the Code"</p>
-                <p class="quote">---John Johnson</p>
+                    <p class="quote">"First Solve the Problem.....Then Write the Code"</p>
+                    <p class="quote">---John Johnson</p>
                 </div>
 
-                <div id = "aboutMe">
+                <div id="aboutMe">
                     <h1>About Me</h1>
 
-                    <p> I am a self taught full-stack web developer. but that is only the tip of the iceberg. I am also, a
-                    problem solver, team builder, motivator, planner, teacher, trainer, compliance specialist and seasoned
-                professional. I am certain that all of these skills will add value to any organization</p>
-                    <p>We all can imagine how planning and problem solving are required attributes of a developer. But how can
-                teaching, training, team building, and compliance add value to the developer role? Let's explore!</p>
+                    <p> I am a “seasoned” professional. By seasoned, I mean, I am at a point in my career where the challenges I assume are juxtaposed against my life-work-balance choices. At this stage in my career, I found myself seeking employment, in a job market that was challenging to maneuver. It became clear to me that i must change my direction, and pursue new skill sets in order to be viable in today’s technology driven job market. This is what led me to CodeCrew.
+</p>
+                    <p>I know what you are thinking. It is the same thing I was thinking as I embarked on this course. What in the hell was i thinking! Trying to learn a new language (i still am not completely sure about my native language!). Even though my career experiences had been varied, nothing I had done to this point was remotely comparative to learning how to code.
+</p>
+                    <p>Yet, here I am. I took on this challenge like any other, piece by piece and bit by bit. Hard work, late nights ( and puzzled looks from my kids!) and perseverance I have turned myself into a self-taught, full stack web developer. But I am more than just that. I am a problem solver, team builder, motivator, planner, teacher, trainer, and “seasoned” professional. I have lived the Jonathan Winters quote “If your ship does not come in, swim out to meet it!”
+</p>
                 </div>
 
-                <div id= "footerQuote">
+                <div id="footerQuote">
                     <p>
 
-                    “If your ship doesn’t come in, swim out to meet it!” – Jonathan Winters
+                        “If your ship doesn’t come in, swim out to meet it!” – Jonathan Winters
                 </p>
                 </div>
             </div>

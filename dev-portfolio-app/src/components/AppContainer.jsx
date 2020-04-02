@@ -22,7 +22,7 @@ class AppContainer extends Component {
                     <Link class="navbar"    to="/home">Home</Link> 
                     <Link  class="navbar"   to="/form">Contact Me!</Link>
                     <Link  class="navbar"   to="/projects">Projects</Link>
-                    <Link  class="navbar"   to="/developer">Developer Skills</Link>
+                   
                     <Link  class="navbar"   to="/professional">Professional Background</Link>
 
                     <Route path="/home">
@@ -43,9 +43,7 @@ class AppContainer extends Component {
                     </Route>
 
 
-                    <Route path="/developer">
-                    <DeveloperSkills />
-                    </Route>
+                    
                 </Router>
                
                
