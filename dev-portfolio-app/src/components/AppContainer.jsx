@@ -3,8 +3,9 @@ import AboutMe from './AboutMe'
 import { BrowserRouter as Router, Link, Route } from "react-router-dom"
 import SignUpform from './SignUpform';
 import ProfessionalBackground from './ProfessionalBackground';
-import DeveloperSkills from './DevoloperSkills';
+
 import Projects from './Projects'
+import { Jumbotron } from 'react-bootstrap';
 
 
 
@@ -16,7 +17,9 @@ class AppContainer extends Component {
     render() {
         return (
             <div >
+               
                 <h1 id="header">Charles A. Gordon</h1>
+                
                 
                 <Router  >
                     <Link class="navbar"    to="/home">Home</Link> 

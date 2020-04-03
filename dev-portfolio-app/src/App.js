@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
-import AppContainer from './components/AppContainer'
+import AppContainer from './components/AppContainer';
 
 function App() {
   return (
     <div className="App">
       
         <AppContainer/>
-     
+   
     </div>
   );
 }
