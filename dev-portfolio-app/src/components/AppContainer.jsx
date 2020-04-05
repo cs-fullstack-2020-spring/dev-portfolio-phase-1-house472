@@ -14,11 +14,12 @@ class AppContainer extends Component {
         super(props);
         this.state = {}
     }
+
     render() {
         return (
             <div >
                
-                <h1 id="header">Charles A. Gordon</h1>
+                {/* <h1 id="header">Charles A. Gordon</h1> */}
                 
                 
                 <Router  >

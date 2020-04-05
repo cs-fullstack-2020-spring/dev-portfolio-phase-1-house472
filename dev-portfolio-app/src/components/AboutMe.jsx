@@ -11,7 +11,7 @@ class AboutMe extends Component {
 
 
                 <div id="image">
-                    <img src= "images/Profile.png" width ="300" alt="" />
+                    <img src= "images/Charles.png" width ="300" alt="" />
                 </div>
 
                 <div id="headerQuote">
@@ -19,9 +19,9 @@ class AboutMe extends Component {
                     <p class="quote">"First Solve the Problem.....Then Write the Code"</p>
                     <p class="quote">---John Johnson</p>
                 </div>
-
+                <h1 id = "abtMeHeader">Hi! I'm Charles</h1>
                 <div id="aboutMe">
-                    <h1>About Me</h1>
+                    
 
                     <p> I am a “seasoned” professional. By seasoned, I mean, I am at a point in my career where the challenges I assume are juxtaposed against my life-work-balance choices. At this stage in my career, I found myself seeking employment, in a job market that was challenging to maneuver. It became clear to me that i must change my direction, and pursue new skill sets in order to be viable in today’s technology driven job market. This is what led me to CodeCrew.
 </p>
