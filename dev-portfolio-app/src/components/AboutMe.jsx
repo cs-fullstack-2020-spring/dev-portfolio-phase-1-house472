@@ -12,6 +12,7 @@ class AboutMe extends Component {
 
                 <div id="image">
                     <img src= "images/Charles.png" width ="300" alt="" />
+                    {/* <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> */}
                 </div>
 
                 <div id="headerQuote">
