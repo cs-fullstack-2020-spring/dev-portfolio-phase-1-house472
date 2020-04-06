@@ -14,7 +14,7 @@ class AppContainer extends Component {
         super(props);
         this.state = {}
     }
-
+//ANIMATIONS STYLING ADD LINKEDIN LOGO, DOWNLOAD RESUME
     render() {
         return (
             <div >
